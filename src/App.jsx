@@ -1,24 +1,22 @@
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import ServicesSection from './components/ServicesSection';
-import GallerySection from './components/GallerySection';
-import AboutSection from './components/AboutSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
+// src/App.jsx
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ProjectsPage from "./pages/projects";
+// Import your HomePage or other pages as needed
 
 function App() {
   return (
-    <div className="font-sans">
-      <Navbar />
-      <HeroSection />
-      <ServicesSection />
-      <GallerySection />
-      <AboutSection />
-      <TestimonialsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <Router>
+      <nav className="bg-gray-800 p-4 flex gap-4">
+        <Link to="/" className="text-white font-semibold">Home</Link>
+        <Link to="/projects" className="text-white font-semibold">Projects</Link>
+      </nav>
+      <Routes>
+        {/* <Route path="/" element={<HomePage />} /> */}
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes>
+    </Router>
   );
 }
 
