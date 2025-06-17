@@ -1,13 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-red-900 text-yellow-400 text-center py-6 mt-8">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-        <div>
-          &copy; {new Date().getFullYear()} E.J. Hosbach Mechanical Contractors, LLC
-        </div>
-        <div>
-          Licensed & Insured | Proudly Serving Chadds Ford & Chester County
-        </div>
+    <footer className="py-8 text-center bg-white/80 backdrop-blur shadow-t">
+      <div className="text-gray-500 text-sm">
+        © {new Date().getFullYear()} E.J. Hosbach Mechanical. All rights reserved.
       </div>
     </footer>
   );

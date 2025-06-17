@@ -1,12 +1,7 @@
-// src/data/projects.js
-
 const projects = [
   {
-    title: "Ridley Twp Sewer Relocation",
-    location: "Ridley Twp",
-    date: "2025",
-    description: `
-We recently were involved in a large scale project in Ridley Twp. Most of you in the area have seen the construction and road closure at Haverford Rd and Macdade Blvd. Peco is installing a 20 inch natural gas main under the creek and out to Macdade. We were hired by Peco to move a sewer line that was in the way of the work being done on their part. Working closely with Peco, Melcar Underground Utility, and Aqua we executed the job exactly how it was planned! From design, layout and laying the pipe, E J Hosbach Mechanical handled business!
+    title: "Ridley Twp. Sewer Relocation",
+    description: `We recently were involved in a large scale project in Ridley Twp. Most of you in the area have seen the construction and road closure at Haverford Rd and Macdade Blvd. Peco is installing a 20 inch natural gas main under the creek and out to Macdade. We were hired by Peco to move a sewer line that was in the way of the work being done on their part. Working closely with Peco, Melcar Underground Utility, and Aqua we executed the job exactly how it was planned! From design, layout and laying the pipe, E J Hosbach Mechanical handled business!
 
 New private sewer lateral from house with new tie into twp sewer main!
 
@@ -27,9 +22,10 @@ QUALITY - INTEGRITY - SATISFACTION`,
       "/images/projects/ridley-twp/19.jpg",
       "/images/projects/ridley-twp/20.jpg",
       "/images/projects/ridley-twp/21.jpg",
-    ]
+    ],
+    location: "Ridley Township, PA",
+    date: "2024",
   },
-  // Add more projects here as needed
+  // Add more project objects here
 ];
-
 export default projects;
